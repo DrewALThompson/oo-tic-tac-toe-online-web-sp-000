@@ -5,8 +5,14 @@ class TicTacToe
   
   def play
   turn until over?
+<<<<<<< HEAD
   won? ? puts("Congratulations #{winner}!") : puts("Cat's Game!")
   end
+=======
+  won? ? puts ("Congratulations #{winner}") : puts ("")
+
+end
+>>>>>>> e1066e561ff86f4e85304b513cbf325f9a3fcc44
 
 WIN_COMBINATIONS = [
 [0,1,2],
